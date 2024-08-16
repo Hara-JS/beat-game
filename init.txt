@@ -1,0 +1,37 @@
+1. 자바 개발 환경 구축 및 GUI 시작
+2. 게임 시작 화면 개발
+3. 시작 화면에 음악 삽입
+4. 메뉴 바 구현
+5. 화면 전환
+6. 곡 선택 화면 디자인
+7. 곡 선택 기능 구현
+8. 게임 화면으로 이동
+9. 리팩토링
+10. 게임 화면 디자인
+11. 키보드 입력 이벤트 리스너
+12. 개별 게임 곡 재생
+13. 노트 이동 애니메이션
+14. 박자에 맞춰 노트 찍기
+15. 노트 판정 점수 구현
+
+images는 .png
+music은 .mp3 // mp3를 실행하기 위해서는 라이브러리가 필요 ( https://jar-download.com/artifacts/javazoom/jlayer/1.0.1/source-code#google_vignette 에서 Download jlayer JAR 1.0.1 다운로드)
+
+게임 창(JFrame) : HD 해상도 (1280 * 720)
+배경(background) : 1280 * 720
+메뉴바(menuBar) : 1280 * 30
+닫기 버튼(exitButton) : 30 * 30
+시작/종료 버튼(startButton/quitButton) : 400 * 100
+곡 정보 이미지(selectedImage) : 600 * 450
+게임 시작 배경(background) : 1280 * 720
+좌/우 이동 버튼(leftButton/rightButton) : 60 * 60
+곡 타이틀 이미지(titleImage) : 600 * 120
+난이도 버튼(easyButton/hardButton) : 250 * 67
+뒤로가기 버튼(backButton) : 60 * 60
+노트(Note) : 100 * 40
+게임 정보(gameInfo) : 1280 * 40
+판정(judgementLine) : 1280 * 40
+노트 경로(noteRoute) : 100 * 630
+노트 경로 구분선(noteRouteLine) : 4 * 630
+판정 이미지(Miss/Early/Late/Good/Great/Perpect) : 360 * 80
+키 패드 작동 이미지(keyPad) : 100 * 40
